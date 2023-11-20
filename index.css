@@ -95,3 +95,39 @@ nav a{
     border: 1px solid #fff;
     background-color: transparent;
 }
+.parttwo{
+    width: 100%;
+    height: 100vh;
+    align-items: end;
+    justify-content: center;
+    background-image: url(img/video-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.parttwo img{
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+#img3{
+    position: absolute;
+    bottom: -7vh;
+    z-index: 5;
+}
+#img2,#img4{
+    margin-bottom: -15vh;
+    z-index: 4;
+}
+#img1,#img5{
+    margin-bottom: -25vh;
+    z-index: 3;
+}
+#img1{
+    margin-right: -10vw;
+}
+#img5{
+    margin-left: -10vw;
+}
+
