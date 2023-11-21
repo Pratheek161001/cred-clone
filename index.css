@@ -240,3 +240,17 @@ nav a{
     font-family: gilroy_regular;
     justify-content: center;
 }
+.part9{
+    width: 100%;
+    height: 100vh;
+}
+.ratings{
+    width: 100%;
+    height: 60vh;
+    background-color: grey;
+}
+#left{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
