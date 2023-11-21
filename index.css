@@ -177,4 +177,66 @@ nav a{
     background-image: url(img/deserve-more-bg.jpg);
     background-size: cover;
 }
-
+.strip{
+    width: 100%;
+    height: 27vh;
+    background-color: #fff;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0vw 10vw;
+    gap: 5vh;
+}
+.strip h3{
+    font-size: 1.4vw;
+}
+.strip img{
+    width: 80vw;
+}
+.part4{
+    background-image: url(img/money-matters-bg.jpg);
+    background-size: cover;
+}
+.part7{
+    background-image: url(img/security-bg.jpg);
+    background-size: cover;
+}
+.part8{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    background-image: url(img/trust-bg.jpg);
+    background-size: cover;
+}
+#left-part{
+    width: 50%;
+    height: 100vh;
+    font-size: 2vw;
+    font-family: gilroy_Bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+}
+#right-part{
+    width: 50%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2vw;
+    line-height: 4vh;
+    gap: 8vh;
+    padding: 0vw 6vw;
+}
+#left-part h1{
+    font-family: gilroy_bold;
+}
+#right-part p{
+    font-family: gilroy_regular;
+    justify-content: center;
+}
