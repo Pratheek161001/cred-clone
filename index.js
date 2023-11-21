@@ -3,20 +3,19 @@ let tl = gsap.timeline({
       trigger: ".parttwo",
       start: "0% 50%", 
       end: "50% 50%",
-      markers:true, 
       scrub: 1, 
       },
 });
 
-tl.from("#img3",
+tl.to("#img3",
 { 
-    bottom:"-50vh"
-})
- from("#img2,#img4",
+    bottom:"-7vh"
+});
+ tl.to("#img2,#img4",
 { 
-    marginBottom:"-50vh"
-})
- from("#img1,#img5",
+    marginBottom:"-15vh"
+});
+ tl.to("#img1,#img5",
 { 
-    bottom:"-50vh"
+    marginBottom:"-25vh"
 })
