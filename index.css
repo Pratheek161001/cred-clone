@@ -38,8 +38,9 @@ nav{
     justify-content: space-between;
     width: 100%;
     height: 20vh;
-    background-color: #111;
     padding: 0vw 14vw;
+    background-image: url(img/hero-bg.jpeg);
+    background-size: cover;
 }
 nav img{
     width: 3vw;
@@ -394,7 +395,6 @@ nav a{
     width: 100%;
     height: 100%;
   }
-
   .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -402,10 +402,32 @@ nav a{
     justify-content: center;
     align-items: center;
   }
-
   .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+  .lastpage{
+    width: 100%;
+    height: 100vh;
+    padding-top: 6vw;
+    padding: 0vw 10vw ;
+    background-color: rgb(36, 36, 36);
+  }
+  .content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 5vh;
+    color: rgb(255, 255, 255);
+  }
+  .content h3{
+    font-family: gilroy_semibold;
+  }
+  .content p{
+    font-family: gilroy_regular;
   }

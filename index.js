@@ -79,7 +79,6 @@ tl2.to("#scroll-1",
     x:"-60vw",
 },'three')
 
-
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     centeredSlides: true,
