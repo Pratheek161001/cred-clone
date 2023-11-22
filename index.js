@@ -30,7 +30,7 @@ let tl2 = gsap.timeline({
 });
 tl2.to("#scroll-1",
 { 
-    bottom:"50vh"
+    bottom:"30vh"
 })
 .to("#scroll-1",
 { 

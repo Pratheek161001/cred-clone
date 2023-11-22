@@ -140,7 +140,6 @@ nav a{
     flex-direction: column;
     padding: 14vw;
     color: #fff;
-
 }
 .part-same h1{
     font-size: 7vw;
@@ -227,7 +226,6 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .scroll-txt{
     width: 100%;
@@ -265,17 +263,19 @@ nav a{
 }
 #scroll-1{
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.3s;
-
 }
 #scroll-2,#scroll-3,#scroll-4{
     opacity: 0%;
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.3s;
-
 }
-
-
-
-
+.part6{
+    width: 100%;
+    height: 60vh;
+    background-image: url(img/neopop-image-mock.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 .part7{
     background-image: url(img/security-bg.jpg);
     background-size: cover;
